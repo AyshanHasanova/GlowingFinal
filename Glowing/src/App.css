@@ -253,6 +253,55 @@ color: #000;
     
     }
 
+    /* Hero */
+    
+   .slide{
+    display: flex;
+    position: relative;
+   }
+   .slide-content{
+    position: absolute;
+    gap: 10px;
+    left: 10%;
+    margin-top: 160px;
+    margin-left: -50px;
+
+   }
+
+   .slide-content h6{
+    font-size: 20px;
+  }
+  .slide-content h2{
+    font-size: 56px;
+    font-weight: bold;
+  }
+  .slide-content p{
+    font-size: 18px;
+    color: #7f7f7f;
+  }
+  .slide-content .explore-btn{
+    background-color: #000;
+    cursor: pointer;
+    color: #fff;
+    padding: 15px 30px;
+  }
+   .slide-content .explore-btn:hover{
+    background-color: #FFF;
+    color: #000;
+   }
+    
+     
+      
+      
+     
+    
+     
+      
+      
+    
+      
+    
+
     /* Footer Css */
     footer{
       background-color: #f8f8f8;
@@ -356,6 +405,181 @@ color: #000;
     .payment-icons{
       margin-right: -80px;
     }
+
+    /* discount */
+    .discount-card1{
+      display: flex;
+      flex-direction: column;
+      align-items: start;
+      position: relative;
+     }
+     .discount-card1 img{
+      width: 600px;
+      height: 400px;
+      object-fit: cover;
+     
+      top: 0;
+      left: 0;
+      z-index: 1;
+     }
+     .text-overlay{
+      position: absolute;
+      z-index: 2;
+      color: #000;
+      text-align: center;
+      align-items: flex-start;
+      top: 80px;
+      left: 30px;
+      gap: 20px;
+    
+      
+     }
+     .discount{
+      display: flex;
+      justify-content: space-around;
+      align-items: center;
+      
+      
+     }
+    
+     .discount-card{
+      display: flex;
+      justify-content: space-between;
+      gap: 40px;
+     }
+     .discount-card1 h6{
+     margin-right: 90px;
+     }
+     .discount-card1 h3{
+      font-size: 30px;
+      font-weight: bold;
+      
+     }
+     .explore-btn{
+      display: inline-block;
+      margin-top: 10px;
+      padding: 10px 20px;
+      background-color: #FFF;
+      color: #000;
+      text-decoration: none;
+      border-radius: 5px;
+      cursor: pointer;
+      transition: background 0.3s, color 0.3s;
+      box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+     }
+     .text-overlay a{
+      font-size: 16px;
+     }
+    .explore-btn:hover{
+      background-color: #000;
+      color: #FFF;
+    }
+    /* featues */
+    .shipping-icon img{
+      width: 100px;
+      height: 100px;
+    }
+    
+    .features{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      margin: 0 auto;
+    }
+
+    /* companies */
+    
+.companies{
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 50px 20px;
+  background-color: #edf1f0;
+}
+.shirketler{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  text-align: center;
+  gap: 30px;
+}
+.testimonials{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto !important;
+  text-align: center;
+ gap: 40px;
+}
+.testimonial{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  margin-left: 70px;
+}
+.shirketler h2{
+  font-size: 30px !important;
+  font-weight: bold;
+  margin-right: 100px;
+ 
+  
+}
+.testimonial p{
+  font-size: 20px;
+  font-weight: 500;
+}
+
+/* discover */
+.discover{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  margin: 0 auto;
+  padding: 50px 20px;
+}
+.shops{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 30px;
+  text-align: center;
+  margin: 20px 0;
+
+}
+.shop1 img{
+  margin-top: 20px;
+}
+.shop-text{
+  display: flex;
+  gap: 10px;
+  flex-direction: column;
+  margin: 20px 0;
+  color: #000;
+}
+.shop-text p{
+  color: #000 !important;
+}
+.discover h2{
+  font-size: 36px;
+  font-weight: bold;
+  }
+  .discover p{
+    text-align: center;
+    color: #7f7f7f;
+    margin: 10px 0;
+  
+    
+    
+  }
+
+
+
+
   
 
 
@@ -501,28 +725,156 @@ color: #000;
   .payment-icons {
     margin: 0;
   }
-} .footer-right h4 {
-  font-size: 24px;
-}
 
-.footer-section input {
+  /* discount */
+
+  .discount{
+    flex-direction: column;
+    align-items: center;
+  }
+  .discount-card{
+    flex-direction: column;
+    gap: 26px;
+  }
+  .discount-card1{
+    width: 100%;
+    align-items: center;
+  }
+  .discount-card1 img{
+    width: 100%;
+    height: auto;
+  }
+  .text-overlay {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    margin-left: -75px;
+    width: 100%;
+  }
+
+  .discount-card1 h6 {
+    margin-right: 0;
+    font-size: 14px;
+  }
+
+  .discount-card1 h3 {
+    font-size: 24px;
+  }
+
+  .text-overlay p {
+    font-size: 14px;
+  }
+
+  .explore-btn {
+    padding: 8px 16px;
+    font-size: 14px;
+  }
+
+  /* companies*/
+  .companies{
+    padding:  30px 10px;
+    margin: 0 auto;
+   }
+   .shirketler h2{
+    font-size: 24px !important;
+    margin-right: 0;
+   }
+   .testimonials{
+    flex-direction: column;
+    gap: 20px;
+    margin: 0 auto;
+   }
+   .testimonial{
+    margin-left: 0;
+    width: 100%;
+   }
+   .testimonial img{
+    max-width: 120px;
+    height: auto;
+   }
+   .testimonial p{
+    font-size: 16px;
+   }
+  
+  .shops{
+    flex-direction: column;
+    gap: 10px;
+  }  
+  .shop1{
+    width: 100%;
+    text-align: center;
+  }
+  .shop1 img{
+    width: 100%;
+    height: auto;
+  }
+  .shop-text {
+    gap: 5px;
+    margin: 15px 0;
+  }
+  .discover h2{
+    font-size: 28px;
+    padding: 0 10px;
+    text-align: center;
+    
+  }
+  .discover p{
+    font-size: 16px;
+    padding: 0 10px;
+    text-align: center;
+  }
+
+  .slide {
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    position: relative;
+    
+   
+}
+.Hero{
   width: 100%;
-  margin: 10px 0;
+  height: 100%;
+  padding: 20px 0;
 }
 
-.subscribe-form {
-  flex-direction: column;
-  max-width: 100%;
+.slide-content {
+    position: absolute;
+    left: 0;
+    gap: 0;
+    margin: 5px 0;
+    padding: 5px 0;
+    max-width: 50%;
+    
+}
+.slide-content img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+.slide-content h6{
+  font-size: 10px;
 }
 
-.icons {
-  flex-direction: column;
-  margin: 0;
+.slide-content h2 {
+    font-size: 14px;
 }
 
-.payment-icons {
-  margin: 0;
+.slide-content p {
+    font-size: 10px;
 }
+
+.slide-content .explore-btn {
+    padding: 8px 15px;
+    font-size: 8px;
+    margin-top: -160px;
+}
+
+  
+
+} 
    
 
 
@@ -612,6 +964,111 @@ color: #000;
     .payment-icons {
       margin-right: 0;
     }
+
+    /* companies */
+    .companies {
+      padding: 40px 20px;
+    }
+    .testimonials{
+      display: flex;
+      flex-direction: row !important;
+      flex-wrap: wrap !important;
+      justify-content: center;
+      gap: 30px;
+      margin: 0 auto;
+    }
+    .testimonial {
+      width: 45%;
+      margin-left: 0;
+    }
+    .shirketler h2{
+      font-size: 28px !important;
+    }
+    .testimonial p{
+      font-size: 18px;
+    }
+    .testimonial img{
+      max-width: 90%;
+    }
+    .testimonial.third{
+      margin-right: 20px;
+    }
+       /* discover planest */
+       .shops {
+        flex-direction: row;
+        justify-content: space-between;
+        gap: 20px;
+      }
+      .shop1{
+        width: 48%;
+        text-align: center;
+  
+      }
+      .shop1 img{
+        width: 100%;
+        height: auto;
+  
+      }
+      .discover h2{
+        font-size: 40px;
+        text-align: center;
+      }
+      .discover p{
+        font-size: 20px;
+        padding: 0 15px;
+        text-align: center;
+      }
+      /* discount */
+      .discount {
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+      }
+    
+      .discount-card {
+        flex-direction: row;
+        gap: 40px;
+      }
+    
+      .discount-card1 {
+        width: 100%;
+        max-width: 600px;
+        position: relative;
+      }
+    
+      .discount-card1 img {
+        width: 100%;
+        height: 350px;
+        object-fit: cover;
+      }
+    
+      .text-overlay {
+        position: absolute;
+        top: 80px;
+        left: 30px;
+        text-align: left;
+        width: auto;
+      }
+    
+      .discount-card1 h6 {
+        font-size: 16px;
+        margin-right: 90px;
+      }
+    
+      .discount-card1 h3 {
+        font-size: 30px;
+      }
+    
+      .text-overlay p {
+        font-size: 16px;
+      }
+    
+      .explore-btn {
+        padding: 10px 20px;
+        font-size: 16px;
+      }
+
+
   } 
   
   
@@ -620,7 +1077,7 @@ color: #000;
         margin-left: -35px;
     }
     .logo img{
-        margin-left: -45px;
+        margin-left: -160px;
     }
     .subscribe-form {
       display: flex;

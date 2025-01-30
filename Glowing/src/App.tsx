@@ -1,4 +1,5 @@
 import 'bootstrap/dist/css/bootstrap.min.css'
+
 import './App.css'
 import {BrowserRouter,Routes,Route} from "react-router-dom"
 import Header from './components/Header'
@@ -18,7 +19,7 @@ function App() {
       <Route path='/' element={<Home/>}/>
       <Route path='/home 1' element = {<Home/>}/>
       <Route path='/home 2' element = {<Home/>}/>
-      <Route path='/about-us' element ={<About/>}/>
+      <Route path='/about us' element ={<About/>}/>
       <Route path='*' element={<NotFound/>}/>
     </Routes>
     <Footer/>
