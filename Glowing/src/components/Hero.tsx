@@ -11,7 +11,7 @@ const Hero:React.FC = () => {
       <div className="slide-content">
                 <h6>ESSENTIALS ITEMS</h6>
                 <h2>Beauty Inspired <br /> by Real Life</h2>
-                <p>Made using clean, non-toxic ingredients, our products are designed for everyone.</p>
+                <p>Made using clean, non-toxic ingredients , our products are designed for everyone.</p>
                 <a href="#" className="explore-btn">Shop now</a>
 
               

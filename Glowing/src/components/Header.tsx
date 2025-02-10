@@ -80,16 +80,17 @@ const Header:React.FC = () => {
                 <Link to="/about us">About Us <i className="fa-solid fa-angle-down"></i></Link>
                 <div className="dropdown-menu">
                     <ul>
-                        <li><a href="#"></a>About Us 01</li>
+                        <Link to={"/about us1"}><a href="#"></a>About Us 01</Link>
                         <li><a href="#"></a>About Us 02</li>
                     </ul>
                 </div>
             </li>
-            <li><a href="#">Contact</a></li>
+            <Link className='contact'  to="/contact">Contact</Link>
+            
 
           
-            <li><a href="#">FAQ</a></li>
-            <li><a href="#">Store</a></li>
+            <Link className='contact' to={"/Faq"}>FAQ</Link>
+            <Link className='contact' to={"/store"}>Store</Link>
          </ul>
        
 
