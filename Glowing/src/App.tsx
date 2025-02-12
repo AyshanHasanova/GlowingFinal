@@ -10,12 +10,14 @@ import Footer from './components/Footer'
 import Contact from './pages/Contact'
 import Store from './pages/Store'
 import Faq from './pages/Faq'
+import { Toaster } from 'react-hot-toast'
 
 function App() {
 
 
   return (
     <>
+    <Toaster/>
     <BrowserRouter>
     <Header/>
     <Routes>
