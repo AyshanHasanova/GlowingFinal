@@ -3,7 +3,7 @@ import React from 'react'
 const Discount:React.FC = () => {
   return (
     <>
-        <section className="discount py-5">
+        <section className="discount py-3">
     <div className="container discount-card">
 
 
