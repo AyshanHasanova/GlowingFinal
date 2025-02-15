@@ -34,24 +34,24 @@ const Header:React.FC = () => {
            
          <ul className="menu">
             <li>
-                <a className="caret" href="#">Home<i className="fa-solid fa-angle-right"></i></a>
+                <Link className="caret" to={"/"}>Home<i className="fa-solid fa-angle-right"></i></Link>
                 <ul className="submenu">
-                    <li><a href="#">Home 01</a></li>
+                    <li><Link to={"/home 1"}>Home 01</Link></li>
                     <li><a href="#">Home 02</a></li>
                     
                 </ul>
             </li>
             <li>
-                <a className="caret" href="#">About Us <i className="fa-solid fa-angle-right"></i></a>
+                <Link className="caret" to={"/about us"}>About Us <i className="fa-solid fa-angle-right"></i></Link>
                 <ul className="submenu">
-                    <li><a href="#">About Us 01</a></li>
+                    <li><Link to={"/about us"}>About Us 01</Link></li>
                     <li><a href="#">About Us 02</a></li>
                 </ul>
             </li>
     
-            <li><a className="caret" href="#">Contact <i className="fa-solid fa-angle-right"></i></a></li>
-            <li><a className="caret" href="#">FAQ<i className="fa-solid fa-angle-right"></i></a></li>
-            <li><a className="caret" href="#">Store<i className="fa-solid fa-angle-right"></i></a></li>
+            <li><Link className="caret" to={"/contact"}>Contact <i className="fa-solid fa-angle-right"></i></Link></li>
+            <li><Link className="caret" to={"/Faq"} >FAQ<i className="fa-solid fa-angle-right"></i></Link></li>
+            <li><Link className="caret" to={"/store"}>Store<i className="fa-solid fa-angle-right"></i></Link></li>
          </ul>
 
         
