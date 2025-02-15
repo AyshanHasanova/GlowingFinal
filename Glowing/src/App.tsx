@@ -10,12 +10,21 @@ import Footer from './components/Footer'
 import Contact from './pages/Contact'
 import Store from './pages/Store'
 import Faq from './pages/Faq'
+import AOS from 'aos'
+import "../node_modules/aos/dist/aos.css"
 import { Toaster } from 'react-hot-toast'
+import { useEffect } from 'react'
 
 function App() {
+  useEffect(() => {
+    AOS.init({
+      duration : 2000
+    });
+  }, []);
 
 
   return (
+  
     <>
     <Toaster/>
     <BrowserRouter>

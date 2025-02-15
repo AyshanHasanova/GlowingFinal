@@ -1,4 +1,5 @@
 import React from 'react'
+import Link from './Link'
 
 const Beauty: React.FC = () => {
     return (
@@ -13,7 +14,7 @@ const Beauty: React.FC = () => {
                             <p>Get the skin you want to feel
                             </p>
 
-                            <a href="#" className="explore-btn">Explore More</a>
+                            <Link linkIcindekiYazi = "Explore More"/>
                         </div>
                     </div>
                     <div className="products-right col-12 col-md-6">

@@ -1,9 +1,9 @@
 import React from 'react'
-
+import Link from './Link'
 const Discount:React.FC = () => {
   return (
     <>
-        <section className="discount py-3">
+        <section className="discount py-3"data-aos="fade-up">
     <div className="container discount-card">
 
 
@@ -13,7 +13,7 @@ const Discount:React.FC = () => {
                <h6>NEW COLLECTION
                </h6>
                 <h3>Intensive Glow  C+ <br/> Serum</h3>  
-               <a href="#" className="explore-btn">Explore More</a>
+                <Link linkIcindekiYazi = "Explore More"/>
            </div>
        </div>
 
@@ -24,7 +24,7 @@ const Discount:React.FC = () => {
                </h3>
                 <p>Makeup with extended range in <br/>
                    colors for every human.</p> 
-               <a href="#" className="explore-btn">Explore More</a>
+                   <Link linkIcindekiYazi = "Explore More"/>
            </div>
        </div>
     </div> 

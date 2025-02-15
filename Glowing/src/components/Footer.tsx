@@ -38,7 +38,7 @@ const Footer: React.FC = () => {
               <h4>Good emails</h4>
               <p>Enter your email below to be the first to know about new collections <br /> and product launches.</p>
               <form className="subscribe-form
-                            ">  <input type="email" placeholder="Enter your email address" />
+                            ">  <input className='gmail' type="email" placeholder="Enter your email address" />
                <input className="btn" type="button" value="Subscribe" 
        style={{ backgroundColor: "black", color: "#fff", width: "40%" }} />
               </form>

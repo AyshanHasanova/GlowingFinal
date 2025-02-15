@@ -18,7 +18,7 @@ const Products:React.FC = () => {
     },[melumat])
   return (
    
-   <section className="products py-3">
+   <section className="products py-3"data-aos="fade-up">
   
       
         <Swiper

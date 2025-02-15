@@ -2,7 +2,7 @@ import React from 'react'
 
 const Discover:React.FC = () => {
   return (
-    <section className="discover">
+    <section className="discover"data-aos="fade-up">
        
     <h2>More to Discover</h2>
     <p>Our bundles were designed to conveniently package your tanning <br/> essentials while saving you money.</p>
