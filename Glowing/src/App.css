@@ -1195,6 +1195,142 @@ button:hover {
 
 
 
+.mySwiper .swiper-slide {
+  position: relative;
+  height: 600px;
+  padding: 0;
+  /* Padding-i silirik */
+  margin: 0;
+}
+
+
+.swiper-text {
+  position: absolute;
+  top: 55%;
+  left: 20px;
+  transform: translateY(-50%);
+  z-index: 10;
+  color: #000;
+  margin-left: 200px;
+}
+
+.swiper-text p {
+  font-size: 18px;
+  color: #7f7f7f;
+}
+
+.swiper-text h1 {
+  font-size: 46px;
+  margin: 25px 0;
+}
+
+.swiper-text a {
+ background-color: #000;
+ color: #fff;
+}
+
+/* .swiper-button-prev .swiper-button-disabled{
+  color: #fff !important;
+} */
+.swiper-button-next,
+.swiper-button-prev {
+  color: #fff !important;
+  font-size: 18px !important;
+  margin-right: 50px !important;
+  margin-left: 50px !important;
+}
+
+@media (max-width: 320px) {
+  .swiper-text h1 {
+    font-size: 35px;
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin-top: 170px !important;
+  }
+
+  .swiper-text button {
+    padding: 10px 30px;
+  }
+}
+
+
+@media (max-width: 576px) {
+  .mySwiper .swiper-slide {
+    position: relative;
+
+  }
+
+  .mySwiper .swiper-slide img {
+    height: 550px;
+    object-fit: cover;
+  }
+
+  .swiper-text p {
+    font-size: 22px;
+  }
+
+  .swiper-text h1 {
+    margin: 10px 0;
+    font-size: 35px;
+  }
+
+  .swiper-text button {
+    border: none;
+    margin-top: 5px;
+    margin-top: 30px;
+  }
+
+  .swiper-text {
+    position: absolute;
+    top: 45%;
+    left: -140px;
+    transform: translateY(-50%);
+  }
+
+  .swiper-button-next,
+  .swiper-button-prev {
+    margin-top: 150px !important;
+  }
+
+}
+
+@media (min-width: 768px) and (max-width: 1024px) {
+  .mySwiper .swiper-slide {
+    position: relative;
+  }
+
+  .swiper-text {
+    position: absolute;
+    top: 45%;
+    left: -140px;
+    transform: translateY(-50%);
+  }
+
+  .mySwiper .swiper-slide img {
+    height: 580px;
+    object-fit: cover;
+  }
+
+  .swiper-text p {
+    font-size: 22px;
+  }
+
+  .swiper-text h1 {
+    margin: 10px 0;
+  }
+
+  .swiper-text button {
+    border: none;
+    margin-top: 5px;
+    margin-top: 30px;
+  }
+}
+
+/* ?Hero end */
+
+
 
   
 
