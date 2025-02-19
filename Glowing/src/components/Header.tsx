@@ -16,8 +16,17 @@ const Header:React.FC = () => {
             mobileMenyuDivi.current.classList.remove("aktiv")
         }
     }
-
-
+    const searchDivi = useRef <HTMLDivElement>(null)
+         const searchAc =()=>{
+            if(searchDivi.current){
+                searchDivi.current.classList.add("active")
+            }
+         }
+        const searchBagla =()=>{
+            if(searchDivi.current){
+                searchDivi.current.classList.remove("active")
+            }
+        }
 
   return (
     <>
@@ -63,6 +72,38 @@ const Header:React.FC = () => {
   
     </div>
     {/* Mobile menu end */}
+
+
+    {/* Serach bar */}
+
+    <div className="search-barr " ref={searchDivi}>
+    <div className="search-container">
+        <select className="category-select">
+            
+            <option className='all' >All Categories</option>
+            <option>Accessories</option>
+            <option>Bodycare</option>
+            <option>Haircare</option>
+            <option>Skincare</option>
+         
+          
+        </select>
+   
+        <input type="text" className="search-inputt" placeholder="Type and hit enter"/>
+        <button className="search-button"><i className="fa-solid fa-magnifying-glass"></i></button>
+        <i onClick={searchBagla} className="fa-solid fa-x " ></i>
+    
+     
+    </div>
+    </div>
+  
+
+
+
+
+
+
+
        <header >
       <div className="container head">
         <nav className="navbar">
@@ -103,9 +144,12 @@ const Header:React.FC = () => {
 
         <div className="icons">
             <div className="icon-container">
+              
                 <div className="icon">
-                    <i className="fa-solid fa-magnifying-glass"></i>
+                    <i onClick={searchAc} className="fa-solid fa-magnifying-glass"></i>
                  </div>
+ 
+                
                <div className="icon">
                 <i className="fa-regular fa-user"></i>
                </div>

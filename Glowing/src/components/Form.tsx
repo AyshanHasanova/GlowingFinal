@@ -49,7 +49,7 @@ const Form:React.FC = () => {
     <form onSubmit={formik.handleSubmit} action="#" method="post">
         <div className="email-name">
               <div className="mb-3 ad">
-              <input type="text" name="name" placeholder="Name*" required
+              <input type="text" name="name" placeholder="Name*"
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.name}

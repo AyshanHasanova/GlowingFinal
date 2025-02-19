@@ -4,7 +4,7 @@ const Store1:React.FC = () => {
   return (
     <section className="store1">
 
-    
+  
     <div className=" store1-left col-12 col-md-6">
        <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/store-01.jpg" alt=""/>
     </div>
