@@ -113,7 +113,7 @@ const Header:React.FC = () => {
                 <div className="dropdown-menu">
                     <ul>
                         <Link to="/home 1">Home 01</Link>
-                        <li><a href="#"></a>Home 02</li>
+                        <Link to={"/home 2"}>Home 02</Link>
                     </ul>
                 </div>
             </li>

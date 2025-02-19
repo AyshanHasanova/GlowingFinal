@@ -14,6 +14,7 @@ import AOS from 'aos'
 import "../node_modules/aos/dist/aos.css"
 import { Toaster } from 'react-hot-toast'
 import { useEffect } from 'react'
+import Shop from './pages/Shop'
 
 function App() {
   useEffect(() => {
@@ -32,7 +33,7 @@ function App() {
     <Routes>
       <Route path='/' element={<Home/>}/>
       <Route path='/home 1' element = {<Home/>}/>
-      <Route path='/home 2' element = {<Home/>}/>
+      <Route path='/home 2' element = {<Shop/>}/>
       <Route path='/about us' element ={<About/>}/>
       <Route path='/about us1' element = {<About/>}/>
       <Route path='/contact'  element = {<Contact/>}/>

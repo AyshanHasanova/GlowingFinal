@@ -368,16 +368,20 @@ color: #000;
    }
     
      
-   
+     
      .product-area input{
       width: 400px;
-      margin-left: 50px ;
+      margin-left: 100px ;
      
      } 
      .product-area .fa-magnifying-glass{
      margin-left: -40px;
      }
-     
+     .myproducts{
+      display: flex;
+      flex-wrap: wrap;
+      margin-left: 60px;
+     }
     
      
       

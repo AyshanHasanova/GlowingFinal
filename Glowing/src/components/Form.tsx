@@ -63,7 +63,7 @@ const Form:React.FC = () => {
               </div>
            
             <div className="mb-3 ad">
-            <input type="email" name="email" placeholder="Email*" required
+            <input type="email" name="email" placeholder="Email*" 
               onChange={formik.handleChange}
               onBlur={formik.handleBlur}
               value={formik.values.email}

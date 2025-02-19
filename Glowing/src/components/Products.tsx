@@ -18,10 +18,7 @@ const Products:React.FC = () => {
     },[melumat])
   return (
     <>
-        <div className="product-area">
-          <input type="text" placeholder='serach data' />
-         <i className="fa-solid fa-magnifying-glass"></i>
-        </div>
+      
 
          <section className="products py-3"data-aos="fade-up">
   
