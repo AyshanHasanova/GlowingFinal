@@ -1240,6 +1240,15 @@ button:hover {
   
   
 }
+.card-image .hover-image{
+  position: absolute;
+  top: 0;
+  left: 0;
+  opacity: 0;
+}
+.card-image:hover .hover-image{
+  opacity: 1;
+}
 .card-image:hover .icons-overlay{
   opacity: 1;
 
@@ -2078,6 +2087,16 @@ button {
   display: flex;
  justify-content: center;
 }
+.product-area input{
+ width: 300px;
+ margin-left: 50px;
+  
+  padding: 15px 20px;
+
+}
+.myproducts{
+  margin: 0 auto;
+}
 
 
   
@@ -2122,6 +2141,10 @@ button {
 }
 .featured h2{
   font-size: 30px;
+}
+.product-area input{
+  width: 300px;
+  margin-right: 20px;
 }
 
 }

@@ -25,7 +25,7 @@ const Search:React.FC = () => {
    <i className="fa-solid fa-magnifying-glass"></i>
    <div className='myproducts'>
     {
-      product && product.slice(0.4)
+      product && product.slice(0.8)
       .filter((x)=>x.product_name.toLowerCase().includes(search.toLowerCase()))
      
       .map((birMelumat)=>(

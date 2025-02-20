@@ -14,7 +14,7 @@ const Beauty: React.FC = () => {
                             <p>Get the skin you want to feel
                             </p>
 
-                            <Link linkIcindekiYazi = "Explore More"/>
+                            <Link linkIcindekiYazi="Explore More" />
                         </div>
                     </div>
                     <div className="products-right col-12 col-md-6">
@@ -24,11 +24,12 @@ const Beauty: React.FC = () => {
                                     <div className="card">
                                         <div className="card-image">
                                             <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-11-3-400x533.jpg" alt="" />
+                                            <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-11-1-1-400x533.jpg" alt="" className ='hover-image' />
                                             <div className="icons-overlay">
-                                            <i className="fa-solid fa-bag-shopping"></i>
-                                            <i className="fa-solid fa-eye"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-brands fa-nfc-directional"></i>
+                                                <i className="fa-solid fa-bag-shopping"></i>
+                                                <i className="fa-solid fa-eye"></i>
+                                                <i className="fa-solid fa-star"></i>
+                                                <i className="fa-brands fa-nfc-directional"></i>
                                             </div>
                                             <div className="card-title">
                                                 <div className="card-text">$10.00 – $20.00
@@ -48,11 +49,12 @@ const Beauty: React.FC = () => {
                                     <div className="card">
                                         <div className="card-image">
                                             <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-13-4-400x533.jpg" alt="" />
+                                           <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-13-1-1-400x533.jpg" alt="" className='hover-image'/>
                                             <div className="icons-overlay">
-                                            <i className="fa-solid fa-bag-shopping"></i>
-                                            <i className="fa-solid fa-eye"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-brands fa-nfc-directional"></i>
+                                                <i className="fa-solid fa-bag-shopping"></i>
+                                                <i className="fa-solid fa-eye"></i>
+                                                <i className="fa-solid fa-star"></i>
+                                                <i className="fa-brands fa-nfc-directional"></i>
                                             </div>
                                             <div className="card-title">
                                                 <div className="card-text"> $20.00
@@ -72,11 +74,12 @@ const Beauty: React.FC = () => {
                                     <div className="card">
                                         <div className="card-image">
                                             <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-10-3-400x533.jpg" alt="" />
+                                            <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-10-1-1-400x533.jpg" alt="" className='hover-image'/>
                                             <div className="icons-overlay">
-                                            <i className="fa-solid fa-bag-shopping"></i>
-                                            <i className="fa-solid fa-eye"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-brands fa-nfc-directional"></i>
+                                                <i className="fa-solid fa-bag-shopping"></i>
+                                                <i className="fa-solid fa-eye"></i>
+                                                <i className="fa-solid fa-star"></i>
+                                                <i className="fa-brands fa-nfc-directional"></i>
                                             </div>
                                             <div className="card-title">
                                                 <div className="card-text">$ 23.00
@@ -98,11 +101,12 @@ const Beauty: React.FC = () => {
                                     <div className="card">
                                         <div className="card-image">
                                             <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-12-3-400x533.jpg" alt="" />
+                                           <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-12-1-1-400x533.jpg" alt="" className='hover-image' />
                                             <div className="icons-overlay">
-                                            <i className="fa-solid fa-bag-shopping"></i>
-                                            <i className="fa-solid fa-eye"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-brands fa-nfc-directional"></i>
+                                                <i className="fa-solid fa-bag-shopping"></i>
+                                                <i className="fa-solid fa-eye"></i>
+                                                <i className="fa-solid fa-star"></i>
+                                                <i className="fa-brands fa-nfc-directional"></i>
                                             </div>
                                             <div className="card-title">
                                                 <div className="card-text">$ 45.00
@@ -122,11 +126,12 @@ const Beauty: React.FC = () => {
                                     <div className="card">
                                         <div className="card-image">
                                             <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-08-04-400x533.jpg" alt="" />
+                                            <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-08-1-1-400x533.jpg" alt="" className = 'hover-image' />
                                             <div className="icons-overlay">
-                                            <i className="fa-solid fa-bag-shopping"></i>
-                                            <i className="fa-solid fa-eye"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-brands fa-nfc-directional"></i>
+                                                <i className="fa-solid fa-bag-shopping"></i>
+                                                <i className="fa-solid fa-eye"></i>
+                                                <i className="fa-solid fa-star"></i>
+                                                <i className="fa-brands fa-nfc-directional"></i>
                                             </div>
                                             <div className="card-title">
                                                 <div className="card-text">$ 90.00
@@ -146,11 +151,12 @@ const Beauty: React.FC = () => {
                                     <div className="card">
                                         <div className="card-image">
                                             <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-07-04-400x533.jpg" alt="" />
+                                            <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/product-07-1-1-400x533.jpg" alt=""  className='hover-image'/>
                                             <div className="icons-overlay">
-                                            <i className="fa-solid fa-bag-shopping"></i>
-                                            <i className="fa-solid fa-eye"></i>
-                                            <i className="fa-solid fa-star"></i>
-                                            <i className="fa-brands fa-nfc-directional"></i>
+                                                <i className="fa-solid fa-bag-shopping"></i>
+                                                <i className="fa-solid fa-eye"></i>
+                                                <i className="fa-solid fa-star"></i>
+                                                <i className="fa-brands fa-nfc-directional"></i>
                                             </div>
                                             <div className="card-title">
                                                 <div className="card-text">$18.00 -$ 90.00
