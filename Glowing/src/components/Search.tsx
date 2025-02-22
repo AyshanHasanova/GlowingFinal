@@ -14,13 +14,13 @@ const Search:React.FC = () => {
   const [product,setProduct] = useState <Melumat []>([])
   useEffect(()=>{
     axios.get("/assets/product.json").then(res=>setProduct(res.data))
-  })
+  },[])
   return (
    <>
     
     
     <div className="product-area">
-    <input type="text" placeholder='serach data' value={search} onChange={(e)=>setSearch(e.target.value)} />
+    <input type="text" placeholder='search data' value={search} onChange={(e)=>setSearch(e.target.value)} />
     
    <i className="fa-solid fa-magnifying-glass"></i>
    <div className='myproducts'>
