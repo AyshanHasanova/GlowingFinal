@@ -7,7 +7,7 @@ const Discount:React.FC = () => {
     <div className="container discount-card">
 
 
-       <div className="discount-card1">
+       <div className="discount-card1" >
            <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/banner-01.jpg" alt=""/>
            <div className="text-overlay">
                <h6>NEW COLLECTION
@@ -17,7 +17,7 @@ const Discount:React.FC = () => {
            </div>
        </div>
 
-       <div className="discount-card1">
+       <div className="discount-card1" >
            <img src="https://glowing.g5plus.net/elementor/wp-content/uploads/2021/10/banner-02.jpg" alt=""/>
            <div className="text-overlay">
                <h3>25% off Everything

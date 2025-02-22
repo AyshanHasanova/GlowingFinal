@@ -2687,6 +2687,12 @@ padding-top: 40px;
   display: flex;
   justify-content: center;
 }
+.product-area input{
+  margin: 10px 20px;
+}
+.myproducts{
+  margin: 0 auto;
+}
 
 
 
